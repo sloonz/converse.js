@@ -37,6 +37,7 @@ import "./plugins/rosterview/index.js";
 import "./plugins/singleton/index.js";
 import "./plugins/dragresize/index.js";     // Allows chat boxes to be resized by dragging them
 import "./plugins/fullscreen/index.js";
+import "./plugins/jingle/index.js";
 /* END: Removable components */
 
 

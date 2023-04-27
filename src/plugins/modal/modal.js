@@ -11,6 +11,7 @@ class BaseModal extends ElementView {
     constructor (options) {
         super();
         this.className = 'modal';
+        this.modalSize = '';
         this.initialized = getOpenPromise();
 
         // Allow properties to be set via passed in options

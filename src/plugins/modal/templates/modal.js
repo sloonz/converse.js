@@ -7,7 +7,7 @@ export default (el) => {
     const alert = el.model?.get('alert');
     const level = el.model?.get('level') ?? '';
     return html`
-        <div class="modal-dialog" role="document" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog ${el.modalSize}" role="document" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
                 <div class="modal-header ${level}">
                     <h5 class="modal-title">${el.getModalTitle()}</h5>
